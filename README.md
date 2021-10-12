@@ -36,3 +36,9 @@
 
         modified:   README.md
         modified:   config/settings.py
+
+
+#### 1.4 Create superuser
+
+        modified:   README.md
+ 
