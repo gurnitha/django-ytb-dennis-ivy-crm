@@ -4,7 +4,7 @@
 from django.urls import path
 
 # Locals
-from apps.accounts.views import home, products, customer, customer_deatils, order_update
+from apps.accounts.views import home, products, customer, order_update
 
 # Appname
 app_name = 'accounts'
@@ -13,7 +13,8 @@ app_name = 'accounts'
 urlpatterns = [
     path('', home, name='home'),
     path('products/', products, name='products'),
-    path('customer/', customer, name='customer'),
-    path('customer/details/', customer_deatils, name='customer_deatils'),
+    path('customer/<str:pk_test>/', customer, name='customer'),
+    # path('customer/<str:pk_test>/', customer, name='customer'),
+    # path('customer/deatils/', customer_deatils, name='customer_deatils'),
     path('order/update/', order_update, name='order_update'),
 ]
