@@ -1,5 +1,7 @@
 ### BUILDING CRM APPLICATION USING DJANGO V3.2
 
+Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
+
 
 ### --------------------------------------------
 ### 1. SETUP
@@ -41,4 +43,10 @@
 #### 1.4 Create superuser
 
         modified:   README.md
- 
+
+
+#### 1.5 Create remote repository on Github
+
+        Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
+
+        modified:   README.md
