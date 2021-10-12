@@ -55,7 +55,9 @@ def customer(request, pk_test):
 
 def createOrder(request):
 
+	# 1. Use the OrderForm forms
 	form = OrderForm
+	# 2. If request with POST method
 	if request.method == 'POST':
 		# print('PRINTING THE POST:', request.POST)
 		''' ----THE RESULT----
@@ -68,6 +70,13 @@ def createOrder(request):
 				'Submit': ['Submit']
 			}>
 		'''
+		# 3. Get the inputs from the form field
+		form_input = OrderForm(request.POST)
+		# 4. If input is valid
+		if form_input.is_valid():
+			# 5. Save the input to db
+			form_input.save()
+
 	context = {'form':form}
 
 	return render(request, 'accounts/order_form.html', context)
