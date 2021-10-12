@@ -153,3 +153,9 @@ Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
         new file:   apps/accounts/forms.py
         modified:   apps/accounts/templates/accounts/order_form.html
         modified:   apps/accounts/views.py
+
+
+#### 4.3 Create order_form basic Part 2 - Form request (restult printing to the console for a test)
+
+        modified:   README.md
+        modified:   apps/accounts/views.py

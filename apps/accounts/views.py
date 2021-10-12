@@ -54,8 +54,22 @@ def customer(request, pk_test):
 
 
 def createOrder(request):
+
 	form = OrderForm
+	if request.method == 'POST':
+		# print('PRINTING THE POST:', request.POST)
+		''' ----THE RESULT----
+		PRINTING THE POST: 
+			<QueryDict: {
+				'csrfmiddlewaretoken': ['07q4sf6x7H5jbaK28qqH2IScAWprPXnoyYrAQVi70C7VE1QGLyVC0BKc1mlR46ja'], 
+				'customer': ['1'], 
+				'product': ['1'], 
+				'status': ['Pending'], 
+				'Submit': ['Submit']
+			}>
+		'''
 	context = {'form':form}
+
 	return render(request, 'accounts/order_form.html', context)
 
 
