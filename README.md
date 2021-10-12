@@ -108,3 +108,10 @@ Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
         new file:   apps/accounts/query-demo.py
         modified:   apps/accounts/templates/accounts/products.html
         modified:   apps/accounts/views.py
+
+
+#### 3.2 Retrieve and display customers and orders
+
+        modified:   README.md
+        modified:   apps/accounts/templates/accounts/dashboard.html
+        modified:   apps/accounts/views.py
