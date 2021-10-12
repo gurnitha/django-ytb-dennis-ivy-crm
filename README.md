@@ -138,10 +138,18 @@ Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
 ### --------------------------------------------
 
 
-#### 4.1 Create order_form basic - Templates, Views and Urls
+#### 4.1 Create order_form basic Part 1 - Templates, Views and Urls
 
         modified:   README.md
         modified:   apps/accounts/templates/accounts/dashboard.html
         new file:   apps/accounts/templates/accounts/order_form.html
         modified:   apps/accounts/urls.py
+        modified:   apps/accounts/views.py
+
+
+#### 4.2 Create order_form basic Part 2 - Create OrderForm using Django Forms
+
+        modified:   README.md
+        new file:   apps/accounts/forms.py
+        modified:   apps/accounts/templates/accounts/order_form.html
         modified:   apps/accounts/views.py

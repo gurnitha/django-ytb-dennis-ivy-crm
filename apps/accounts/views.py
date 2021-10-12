@@ -5,6 +5,7 @@ from django.shortcuts import render
 
 # Locals
 from apps.accounts.models import Product, Order, Customer  
+from apps.accounts.forms import OrderForm
 
 # Create your views here.
 
@@ -53,7 +54,9 @@ def customer(request, pk_test):
 
 
 def createOrder(request):
-	return render(request, 'accounts/order_form.html')
+	form = OrderForm
+	context = {'form':form}
+	return render(request, 'accounts/order_form.html', context)
 
 
 def customer_deatils(request):	
