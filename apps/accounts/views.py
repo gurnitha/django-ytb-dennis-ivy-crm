@@ -1,7 +1,7 @@
 # apps/accounts/views.py
 
 # Django modules
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 # Locals
 from apps.accounts.models import Product, Order, Customer  
@@ -76,6 +76,8 @@ def createOrder(request):
 		if form_input.is_valid():
 			# 5. Save the input to db
 			form_input.save()
+			# 6. Redirect to home page
+			return redirect('accounts:home')
 
 	context = {'form':form}
 

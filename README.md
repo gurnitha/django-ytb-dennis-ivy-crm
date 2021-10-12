@@ -165,3 +165,9 @@ Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
 
         modified:   README.md
         modified:   apps/accounts/views.py
+
+
+#### 4.5 Create order_form basic Part 4 - Use django shortcuts redirect after saving the input
+
+        modified:   README.md
+        modified:   apps/accounts/views.py
