@@ -24,3 +24,9 @@
         new file:   config/wsgi.py
         new file:   manage.py
 
+
+#### 1.2 Register the app to the project
+
+        modified:   README.md
+        modified:   apps/accounts/apps.py
+        modified:   config/settings.py
