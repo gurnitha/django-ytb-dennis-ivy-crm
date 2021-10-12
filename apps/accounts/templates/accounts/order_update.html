@@ -1,0 +1,40 @@
+<!-- apps/accounts/templates/accounts/order_update.html -->
+{% extends './base.html' %}
+
+{% block title %}Oreder Update{% endblock title %}
+
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <form action="" method="POST">
+                        <input type="hidden" name="csrfmiddlewaretoken" value="cR90PKuXizvYGSXNA7KUHxbEE48VAXSnKT5zP6F88SCI5aL8Cv7dtJ48vrNrA6Re">
+                        <select name="customer" required id="id_customer">
+                            <option value="">---------</option>
+                            <option value="2" selected>Peter Piper</option>
+                            <option value="4">John Doe</option>
+                        </select>
+                        <hr>
+                        <select name="product" required id="id_product">
+                            <option value="">---------</option>
+                            <option value="2" selected>BBQ Grill</option>
+                            <option value="3">Dishes</option>
+                            <option value="4">Ball</option>
+                        </select>
+                        <hr>
+                        <select name="status" required id="id_status">
+                            <option value="">---------</option>
+                            <option value="Pending">Pending</option>
+                            <option value="Out for delivery" selected>Out for delivery</option>
+                            <option value="Delivered">Delivered</option>
+                        </select>
+                        <hr>
+                        <input class="prevent-submit btn btn-primary" type="submit" name="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

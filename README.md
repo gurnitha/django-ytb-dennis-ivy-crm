@@ -76,3 +76,16 @@ Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
         modified:   apps/accounts/templates/accounts/dashboard.html
         new file:   apps/accounts/templates/accounts/navbar.html
         modified:   apps/accounts/templates/accounts/products.html
+
+
+#### 2.3 Added more templates:customer_details, order_update
+
+        modified:   README.md
+        modified:   apps/accounts/templates/accounts/base.html
+        new file:   apps/accounts/templates/accounts/customer_details.html
+        modified:   apps/accounts/templates/accounts/dashboard.html
+        modified:   apps/accounts/templates/accounts/navbar.html
+        new file:   apps/accounts/templates/accounts/order_update.html
+        modified:   apps/accounts/templates/accounts/products.html
+        modified:   apps/accounts/urls.py
+        modified:   apps/accounts/views.py
