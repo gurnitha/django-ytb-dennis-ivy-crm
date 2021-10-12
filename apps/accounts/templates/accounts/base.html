@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> CRM | {% block title %}{{block.super}}{% endblock title %}</title>
+</head>
+<body>
+
+	{% include './navbar.html' %}
+
+	{% block content %}
+	{% endblock content %}
+
+</body>
+</html>

@@ -66,3 +66,13 @@ Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
         new file:   apps/accounts/urls.py
         modified:   apps/accounts/views.py
         modified:   config/urls.py
+
+
+#### 2.2 Template inheritance with base template
+
+        modified:   README.md
+        new file:   apps/accounts/templates/accounts/base.html
+        modified:   apps/accounts/templates/accounts/customer.html
+        modified:   apps/accounts/templates/accounts/dashboard.html
+        new file:   apps/accounts/templates/accounts/navbar.html
+        modified:   apps/accounts/templates/accounts/products.html
