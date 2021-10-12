@@ -30,3 +30,9 @@
         modified:   README.md
         modified:   apps/accounts/apps.py
         modified:   config/settings.py
+
+
+#### 1.3 Setting up .env file and database
+
+        modified:   README.md
+        modified:   config/settings.py
