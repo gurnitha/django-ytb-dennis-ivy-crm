@@ -50,3 +50,19 @@ Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
         Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
 
         modified:   README.md
+
+
+### --------------------------------------------
+### 2. CREATING PAGES
+### --------------------------------------------
+
+
+#### 2.1 Create pages: Home, Products, Customer (VTURLs)
+
+        modified:   README.md
+        new file:   apps/accounts/templates/accounts/customer.html
+        new file:   apps/accounts/templates/accounts/dashboard.html
+        new file:   apps/accounts/templates/accounts/products.html
+        new file:   apps/accounts/urls.py
+        modified:   apps/accounts/views.py
+        modified:   config/urls.py
