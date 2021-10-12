@@ -18,21 +18,13 @@
                             <th>Category</th>
                             <th>Price</th>
                         </tr>
+                        {% for product in products %}
                         <tr>
-                            <td>BBQ Grill</td>
-                            <td>Out Door</td>
-                            <td>200.0</td>
+                            <td>{{product.name}}</td>
+                            <td>{{product.category}}</td>
+                            <td>{{product.price}}</td>
                         </tr>
-                        <tr>
-                            <td>Dishes</td>
-                            <td>Indoor</td>
-                            <td>50.0</td>
-                        </tr>
-                        <tr>
-                            <td>Ball</td>
-                            <td>Out Door</td>
-                            <td>30.0</td>
-                        </tr>
+                        {% endfor %}
                     </table>
                 </div>
             </div>

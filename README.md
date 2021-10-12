@@ -89,3 +89,22 @@ Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
         modified:   apps/accounts/templates/accounts/products.html
         modified:   apps/accounts/urls.py
         modified:   apps/accounts/views.py
+
+
+### --------------------------------------------
+### 3. QUERY AND DISPLAY
+### --------------------------------------------
+
+
+#### 3.1 Retrieve and display products
+
+        modified:   README.md
+        modified:   apps/accounts/admin.py
+        new file:   apps/accounts/migrations/0001_initial.py
+        new file:   apps/accounts/migrations/0002_order_product_tag.py
+        new file:   apps/accounts/migrations/0003_auto_20211012_2132.py
+        new file:   apps/accounts/migrations/0004_auto_20211012_2137.py
+        modified:   apps/accounts/models.py
+        new file:   apps/accounts/query-demo.py
+        modified:   apps/accounts/templates/accounts/products.html
+        modified:   apps/accounts/views.py
