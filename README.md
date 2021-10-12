@@ -131,3 +131,17 @@ Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
         modified:   apps/accounts/templates/accounts/dashboard.html
         modified:   apps/accounts/urls.py
         modified:   apps/accounts/views.py
+
+
+### --------------------------------------------
+### 4. CRUD FUNCTIONALITIES
+### --------------------------------------------
+
+
+#### 4.1 Create order_form basic - Templates, Views and Urls
+
+        modified:   README.md
+        modified:   apps/accounts/templates/accounts/dashboard.html
+        new file:   apps/accounts/templates/accounts/order_form.html
+        modified:   apps/accounts/urls.py
+        modified:   apps/accounts/views.py

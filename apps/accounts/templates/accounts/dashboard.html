@@ -93,6 +93,7 @@
                 <h5>LAST 5 ORDERS</h5>
                 <hr>
                 <div class="card card-body">
+                    <a class="btn btn-primary btn-sm-block" href="{% url 'accounts:createOrder' %}">Create Order</a>
                     <table class="table table-sm">
                         <tr>
                             <th>Product</th>
@@ -106,7 +107,7 @@
                             <td>{{order.customer}}</td>
                             <td>{{order.date_created}}</td>
                             <td>{{order.status}}</td>
-                            <td><a class="btn btn-sm btn-info" href="/update_order/3/">Update</a></td>
+                            <td><a class="btn btn-sm btn-info" href="{% url 'accounts:order_update' %}">Update</a></td>
                             <td><a class="btn btn-sm btn-danger" href="/delete_order/3/">Delete</a></td>
                         </tr>
                         {% endfor %}

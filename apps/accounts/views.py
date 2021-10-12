@@ -51,11 +51,9 @@ def customer(request, pk_test):
 	}
 	return render(request, 'accounts/customer.html', context)
 
-# def customer(request, pk_test):
-# 	customer = Customer.objects.get(id=pk_test)
-# 	orders = customer.order_set.all()
-# 	context = {'customer':customer, 'orders':orders}
-# 	return render(request, 'accounts/customer.html', context)
+
+def createOrder(request):
+	return render(request, 'accounts/order_form.html')
 
 
 def customer_deatils(request):	
