@@ -115,3 +115,10 @@ Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
         modified:   README.md
         modified:   apps/accounts/templates/accounts/dashboard.html
         modified:   apps/accounts/views.py
+
+
+#### 3.3 Retrieve and display total_orders, total_delivered, total_pending
+
+        modified:   README.md
+        modified:   apps/accounts/templates/accounts/dashboard.html
+        modified:   apps/accounts/views.py
