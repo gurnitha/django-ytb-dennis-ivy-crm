@@ -233,5 +233,12 @@ Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
         modified:   apps/accounts/views.py
 
 
+#### 6.2 Delete item - Query the item, add csrf_token to the form, and add string method to the Order model
+
+
+        modified:   README.md
+        modified:   apps/accounts/models.py
+        modified:   apps/accounts/templates/accounts/delete.html
+        modified:   apps/accounts/views.py
 
 

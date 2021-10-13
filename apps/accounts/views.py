@@ -108,7 +108,9 @@ def updateOrder(request, pk_test):
 
 
 def deleteOrder(request, pk_test):
-	return render(request, 'accounts/delete.html')
+	order = Order.objects.get(id=pk_test)
+	context = {'item':order}
+	return render(request, 'accounts/delete.html', context)
 
 # def customer_deatils(request):	
 # 	return render(request, 'accounts/customer_details.html')

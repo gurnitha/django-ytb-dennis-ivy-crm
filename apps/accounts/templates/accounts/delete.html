@@ -10,6 +10,8 @@
 
 <!-- Form -->
 <form method="POST">
+	{% csrf_token %}
+
 	<a href="{% url 'accounts:home' %}">Cancel</a>
 	<input type="submit" name="Confirm">
 </form>
