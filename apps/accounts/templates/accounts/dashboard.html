@@ -68,8 +68,13 @@
             <div class="col-md-5">
                 <h5>CUSTOMERS:</h5>
                 <hr>
+                <a href="">
+                    <button type="button" class="btn btn-success">Create Customer</button>
+                </a><br><br>
+
                 <div class="card card-body">
-                    <a class="prevent-submit btn btn-primary  btn-sm btn-block" href="">Create Customer</a>
+
+                    <a class="prevent-submit btn btn-primary btn-sm-block" href="">Customer List</a>
                     <table class="table table-sm">
                         <tr>
                             <th></th>
@@ -92,10 +97,15 @@
             <div class="col-md-7">
                 <h5>LAST 5 ORDERS</h5>
                 <hr>
+                <a href="{% url 'accounts:createOrder' %}">
+                    <button type="button" class="btn btn-success">Create Order</button>
+                </a><br><br>
                 <div class="card card-body">
-                    <a class="btn btn-primary btn-sm-block" href="{% url 'accounts:createOrder' %}">Create Order</a>
+
+                    <a class="btn btn-primary btn-sm-block" href="#">Order List</a>
                     <table class="table table-sm">
                         <tr>
+                            <th>Customer</th>
                             <th>Product</th>
                             <th>Date Orderd</th>
                             <th>Status</th>
@@ -105,6 +115,7 @@
                         {% for order in orders %}
                         <tr>
                             <td>{{order.customer}}</td>
+                            <td>{{order.product}}</td>
                             <td>{{order.date_created}}</td>
                             <td>{{order.status}}</td>
                             <td><a class="btn btn-sm btn-info" href="{% url 'accounts:updateOrder' order.id %}">Update</a></td>

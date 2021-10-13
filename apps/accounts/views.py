@@ -107,9 +107,9 @@ def updateOrder(request, pk_test):
 	return render(request, 'accounts/order_form.html', context)
 
 
-def customer_deatils(request):	
-	return render(request, 'accounts/customer_details.html')
+# def customer_deatils(request):	
+# 	return render(request, 'accounts/customer_details.html')
 
 
-def order_update(request):
-	return render(request, 'accounts/order_update.html')
+# def order_update(request):
+# 	return render(request, 'accounts/order_update.html')

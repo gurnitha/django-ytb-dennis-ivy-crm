@@ -6,7 +6,7 @@ from django.urls import path
 # Locals
 from apps.accounts.views import (
     home, products, 
-    customer, order_update,
+    customer,
     createOrder, updateOrder)
 
 # Appname

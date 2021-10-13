@@ -210,3 +210,14 @@ Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
         modified:   apps/accounts/views.py
 
 
+#### 5.4  Modified display, links in dashboard page
+
+        modified:   README.md
+        modified:   apps/accounts/templates/accounts/customer.html
+        modified:   apps/accounts/templates/accounts/dashboard.html
+        modified:   apps/accounts/urls.py
+        modified:   apps/accounts/views.py
+
+
+
+
