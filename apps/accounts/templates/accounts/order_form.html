@@ -6,10 +6,20 @@
 
 {% block content %}
 
-    <form action="" method="POST">
-        {% csrf_token %}
-        {{form}}
-        <input type="submit" name="Submit">
-    </form>
-    
+    <br><br><br><br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6" style="margin:0 auto;">
+                <div class="card card-body">
+
+                    <form action="" method="POST">
+                        {% csrf_token %}
+                        {{form}}
+                        <input type="submit" name="Submit">
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock content %}
