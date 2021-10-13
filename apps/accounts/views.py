@@ -108,8 +108,18 @@ def updateOrder(request, pk_test):
 
 
 def deleteOrder(request, pk_test):
+	
+	# 1. Get the spesific item by its id
 	order = Order.objects.get(id=pk_test)
+	# 2. If request with POST method
+	if request.method == 'POST':
+		# 2. Delete the item
+		order.delete() 
+		# 3. Redirect to home page
+		return redirect('accounts:home')
+	# 4. Put order in the context ana name it as item 
 	context = {'item':order}
+	# 5. Pass the context to the template
 	return render(request, 'accounts/delete.html', context)
 
 # def customer_deatils(request):	

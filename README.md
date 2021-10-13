@@ -242,3 +242,8 @@ Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
         modified:   apps/accounts/views.py
 
 
+#### 6.3 Delete item - Add the logic
+
+        modified:   apps/accounts/templates/accounts/delete.html
+        modified:   apps/accounts/views.py
+

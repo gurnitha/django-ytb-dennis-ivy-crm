@@ -9,7 +9,7 @@
 <p>Are you sure you want to delete "{{item}}"?</p>
 
 <!-- Form -->
-<form method="POST">
+<form action="{% url 'accounts:deleteOrder' item.id %}" method="POST">
 	{% csrf_token %}
 
 	<a href="{% url 'accounts:home' %}">Cancel</a>
