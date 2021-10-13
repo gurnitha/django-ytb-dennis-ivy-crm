@@ -255,3 +255,14 @@ Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
         modified:   README.md
 
         NOTE: :)
+
+
+### --------------------------------------------
+### 7. HOUSE KEEPING AND STYLING
+### --------------------------------------------
+
+
+### 7.1 Added new field for Customer name and delete link on customer page
+
+        modified:   README.md
+        modified:   apps/accounts/templates/accounts/customer.html
