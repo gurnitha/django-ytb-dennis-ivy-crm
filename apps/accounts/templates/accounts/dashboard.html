@@ -107,7 +107,7 @@
                             <td>{{order.customer}}</td>
                             <td>{{order.date_created}}</td>
                             <td>{{order.status}}</td>
-                            <td><a class="btn btn-sm btn-info" href="{% url 'accounts:order_update' %}">Update</a></td>
+                            <td><a class="btn btn-sm btn-info" href="{% url 'accounts:updateOrder' order.id %}">Update</a></td>
                             <td><a class="btn btn-sm btn-danger" href="/delete_order/3/">Delete</a></td>
                         </tr>
                         {% endfor %}

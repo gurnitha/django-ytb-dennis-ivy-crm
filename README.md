@@ -183,3 +183,16 @@ Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
 #### 4.7 House keeping - modified Readme file
 
         modified:   README.md
+
+
+### --------------------------------------------
+### 5. CRUD FUNCTIONALITIES - UPDATE
+### --------------------------------------------
+
+
+#### 5.1 Update the values of the order form Part 1 - Templates, Views, Urls
+
+        modified:   README.md
+        modified:   apps/accounts/templates/accounts/dashboard.html
+        modified:   apps/accounts/urls.py
+        modified:   apps/accounts/views.py

@@ -84,6 +84,12 @@ def createOrder(request):
 	return render(request, 'accounts/order_form.html', context)
 
 
+def updateOrder(request, pk_test):
+	form = OrderForm
+	context = {'form':form}
+	return render(request, 'accounts/order_form.html', context)
+
+
 def customer_deatils(request):	
 	return render(request, 'accounts/customer_details.html')
 

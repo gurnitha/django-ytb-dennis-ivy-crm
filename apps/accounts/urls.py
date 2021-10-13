@@ -7,7 +7,7 @@ from django.urls import path
 from apps.accounts.views import (
     home, products, 
     customer, order_update,
-    createOrder)
+    createOrder, updateOrder)
 
 # Appname
 app_name = 'accounts'
@@ -18,7 +18,8 @@ urlpatterns = [
     path('products/', products, name='products'),
     path('customer/<str:pk_test>/', customer, name='customer'),
     path('order/create', createOrder, name='createOrder'),
+    path('order/update/<str:pk_test>/', updateOrder, name='updateOrder'),
     # path('customer/<str:pk_test>/', customer, name='customer'),
     # path('customer/deatils/', customer_deatils, name='customer_deatils'),
-    path('order/update/', order_update, name='order_update'),
+    # path('order/update/', order_update, name='order_update'),
 ]
