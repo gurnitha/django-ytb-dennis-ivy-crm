@@ -1,0 +1,18 @@
+<!-- apps/accounts/templates/accounts/delete.html -->
+{% extends './base.html' %}
+
+{% block title %}Delete{% endblock title %}
+
+{% block content %}
+
+<!-- Question -->
+<p>Are you sure you want to delete "{{item}}"?</p>
+
+<!-- Form -->
+<form method="POST">
+	<a href="{% url 'accounts:home' %}">Cancel</a>
+	<input type="submit" name="Confirm">
+</form>
+
+
+{% endblock content %}

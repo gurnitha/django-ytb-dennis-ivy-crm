@@ -219,5 +219,19 @@ Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
         modified:   apps/accounts/views.py
 
 
+### --------------------------------------------
+### 6. CRUD FUNCTIONALITIES - DELETE
+### --------------------------------------------
+
+
+#### 6.1 Delete item - Templates, Vies, Urls, link
+
+        modified:   README.md
+        modified:   apps/accounts/templates/accounts/dashboard.html
+        new file:   apps/accounts/templates/accounts/delete.html
+        modified:   apps/accounts/urls.py
+        modified:   apps/accounts/views.py
+
+
 
 

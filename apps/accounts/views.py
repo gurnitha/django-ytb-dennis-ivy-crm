@@ -107,6 +107,9 @@ def updateOrder(request, pk_test):
 	return render(request, 'accounts/order_form.html', context)
 
 
+def deleteOrder(request, pk_test):
+	return render(request, 'accounts/delete.html')
+
 # def customer_deatils(request):	
 # 	return render(request, 'accounts/customer_details.html')
 
