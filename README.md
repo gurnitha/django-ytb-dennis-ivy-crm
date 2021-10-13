@@ -224,7 +224,7 @@ Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
 ### --------------------------------------------
 
 
-#### 6.1 Delete item - Templates, Vies, Urls, link
+#### 6.1 Delete item Part 1 - Templates, Vies, Urls, link
 
         modified:   README.md
         modified:   apps/accounts/templates/accounts/dashboard.html
@@ -233,7 +233,7 @@ Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
         modified:   apps/accounts/views.py
 
 
-#### 6.2 Delete item - Query the item, add csrf_token to the form, and add string method to the Order model
+#### 6.2 Delete item Part 2 - Query the item, add csrf_token to the form, and add string method to the Order model
 
 
         modified:   README.md
@@ -242,8 +242,16 @@ Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
         modified:   apps/accounts/views.py
 
 
-#### 6.3 Delete item - Add the logic
+#### 6.3 Delete item Part 3 - Add the logic
 
         modified:   apps/accounts/templates/accounts/delete.html
         modified:   apps/accounts/views.py
 
+
+
+#### 6.4 Delete item Part 4 - Testing and House keeping (modified README)
+
+
+        modified:   README.md
+
+        NOTE: :)
