@@ -85,8 +85,14 @@ def createOrder(request):
 
 
 def updateOrder(request, pk_test):
-	form = OrderForm
+
+	# 1. Get the spesific order based on its id
+	order = Order.objects.get(id=pk_test)
+	# 2. Pass the instance of the order item to OrderForm
+	form = OrderForm(instance=order)
+	# 3. Pass value of the form_instance to context
 	context = {'form':form}
+
 	return render(request, 'accounts/order_form.html', context)
 
 

@@ -196,3 +196,9 @@ Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
         modified:   apps/accounts/templates/accounts/dashboard.html
         modified:   apps/accounts/urls.py
         modified:   apps/accounts/views.py
+
+
+#### 5.2 Update the values of the order form Part 2 - Query the instance of the order
+
+        modified:   README.md
+        modified:   apps/accounts/views.py
