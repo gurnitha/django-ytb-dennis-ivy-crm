@@ -90,7 +90,18 @@ def updateOrder(request, pk_test):
 	order = Order.objects.get(id=pk_test)
 	# 2. Pass the instance of the order item to OrderForm
 	form = OrderForm(instance=order)
-	# 3. Pass value of the form_instance to context
+	# 3. If request with POST method
+	if request.method == 'POST':
+		# 4. Get the instance from the form field
+		form_input = OrderForm(request.POST, instance=order)
+		# 6. If input is valid (validation)
+		if form_input.is_valid():
+			# 6. Save the input to db
+			form_input.save()
+			# 7. Redirect to home page
+			return redirect('accounts:home')
+
+	# 8. Pass value of the form_instance to context
 	context = {'form':form}
 
 	return render(request, 'accounts/order_form.html', context)

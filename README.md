@@ -202,3 +202,11 @@ Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
 
         modified:   README.md
         modified:   apps/accounts/views.py
+
+
+#### 5.3 Update the values of the order form Part 2 - Save the update intance
+
+        modified:   README.md
+        modified:   apps/accounts/views.py
+
+
