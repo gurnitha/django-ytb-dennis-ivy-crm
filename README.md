@@ -266,3 +266,10 @@ Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
 
         modified:   README.md
         modified:   apps/accounts/templates/accounts/customer.html
+
+
+### 7.2 Stying the delete form page
+
+        modified:   README.md
+        modified:   apps/accounts/templates/accounts/delete.html
+

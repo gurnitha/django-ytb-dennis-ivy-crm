@@ -5,16 +5,25 @@
 
 {% block content %}
 
-<!-- Question -->
-<p>Are you sure you want to delete "{{item}}"?</p>
+<br><br>
 
-<!-- Form -->
-<form action="{% url 'accounts:deleteOrder' item.id %}" method="POST">
-	{% csrf_token %}
+<div class="row">
+	<div class="col-md-6" style="margin: 0 auto;">
+		<div class="card card-body">
+			<!-- Question -->
+			<p>Are you sure you want to delete "{{item}}"?</p>
 
-	<a href="{% url 'accounts:home' %}">Cancel</a>
-	<input type="submit" name="Confirm">
-</form>
+			<!-- Form -->
+			<form action="{% url 'accounts:deleteOrder' item.id %}" method="POST">
+				{% csrf_token %}
+
+				<a class="btn btn-warning" href="{% url 'accounts:home' %}">Cancel</a>
+				<input class="btn btn-danger" type="submit" name="Confirm">
+			</form>
+			
+		</div>
+	</div>
+</div>
 
 
 {% endblock content %}
