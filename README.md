@@ -134,7 +134,7 @@ Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
 
 
 ### --------------------------------------------
-### 4. CRUD FUNCTIONALITIES
+### 4. CRUD FUNCTIONALITIES - CREATE
 ### --------------------------------------------
 
 
@@ -178,3 +178,8 @@ Github: https://github.com/gurnitha/django-ytb-dennis-ivy-crm
         modified:   README.md
 
         NOTE: :)
+
+
+#### 4.7 House keeping - modified Readme file
+
+        modified:   README.md
